@@ -1,0 +1,10 @@
+name: QuantovUltraBan
+version: '${version}'
+main: org.super89.supermegamod.quantovultraban.QuantovUltraBan
+api-version: '1.20'
+commands:
+  qrban:
+    usage: "/qrban -  Забанить набегатора"
+    permission-message: "Ты не админ!"
+  qrunban:
+    usage: "/qrunban - Разбанить набегаотра"
